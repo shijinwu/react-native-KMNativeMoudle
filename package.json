@@ -7,6 +7,10 @@
     "km",
     "react-native-KMNativeMoudle"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shijinwu/react-native-KMNativeMoudle.git"
+  },
   "platfrom":"iOS",
-  "author": "WXB",
+  "author": "WXB"
 }
