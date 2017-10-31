@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04253D561F8B5D0100F4DEC0 /* KMNativeMoudle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04253D551F8B5D0100F4DEC0 /* KMNativeMoudle.m */; };
+		04253D571F8B5D0100F4DEC0 /* KMNativeMoudle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04253D541F8B5D0100F4DEC0 /* KMNativeMoudle.h */; };
+		0445D0851F8B63810017E1DA /* VerticalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445D07C1F8B63800017E1DA /* VerticalScrollView.m */; };
+		0445D0871F8B63810017E1DA /* SubScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445D0801F8B63810017E1DA /* SubScrollView.m */; };
+		0445D0881F8B63810017E1DA /* SubScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445D0821F8B63810017E1DA /* SubScrollManager.m */; };
+		0445D0891F8B63810017E1DA /* VerticalScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445D0831F8B63810017E1DA /* VerticalScrollManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04253D4F1F8B5D0100F4DEC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04253D571F8B5D0100F4DEC0 /* KMNativeMoudle.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04253D511F8B5D0100F4DEC0 /* libKMNativeMoudle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKMNativeMoudle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04253D541F8B5D0100F4DEC0 /* KMNativeMoudle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMNativeMoudle.h; sourceTree = "<group>"; };
+		04253D551F8B5D0100F4DEC0 /* KMNativeMoudle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMNativeMoudle.m; sourceTree = "<group>"; };
+		0445D0781F8B63800017E1DA /* VerticalScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalScrollManager.h; sourceTree = "<group>"; };
+		0445D07A1F8B63800017E1DA /* SubScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubScrollManager.h; sourceTree = "<group>"; };
+		0445D07B1F8B63800017E1DA /* VerticalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalScrollView.h; sourceTree = "<group>"; };
+		0445D07C1F8B63800017E1DA /* VerticalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalScrollView.m; sourceTree = "<group>"; };
+		0445D0801F8B63810017E1DA /* SubScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubScrollView.m; sourceTree = "<group>"; };
+		0445D0811F8B63810017E1DA /* SubScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubScrollView.h; sourceTree = "<group>"; };
+		0445D0821F8B63810017E1DA /* SubScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubScrollManager.m; sourceTree = "<group>"; };
+		0445D0831F8B63810017E1DA /* VerticalScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalScrollManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04253D4E1F8B5D0100F4DEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04253D481F8B5D0100F4DEC0 = {
+			isa = PBXGroup;
+			children = (
+				04253D531F8B5D0100F4DEC0 /* KMNativeMoudle */,
+				04253D521F8B5D0100F4DEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04253D521F8B5D0100F4DEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04253D511F8B5D0100F4DEC0 /* libKMNativeMoudle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04253D531F8B5D0100F4DEC0 /* KMNativeMoudle */ = {
+			isa = PBXGroup;
+			children = (
+				0445D07A1F8B63800017E1DA /* SubScrollManager.h */,
+				0445D0821F8B63810017E1DA /* SubScrollManager.m */,
+				0445D0811F8B63810017E1DA /* SubScrollView.h */,
+				0445D0801F8B63810017E1DA /* SubScrollView.m */,
+				0445D0781F8B63800017E1DA /* VerticalScrollManager.h */,
+				0445D0831F8B63810017E1DA /* VerticalScrollManager.m */,
+				0445D07B1F8B63800017E1DA /* VerticalScrollView.h */,
+				0445D07C1F8B63800017E1DA /* VerticalScrollView.m */,
+				04253D541F8B5D0100F4DEC0 /* KMNativeMoudle.h */,
+				04253D551F8B5D0100F4DEC0 /* KMNativeMoudle.m */,
+			);
+			path = KMNativeMoudle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04253D501F8B5D0100F4DEC0 /* KMNativeMoudle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04253D5A1F8B5D0100F4DEC0 /* Build configuration list for PBXNativeTarget "KMNativeMoudle" */;
+			buildPhases = (
+				04253D4D1F8B5D0100F4DEC0 /* Sources */,
+				04253D4E1F8B5D0100F4DEC0 /* Frameworks */,
+				04253D4F1F8B5D0100F4DEC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMNativeMoudle;
+			productName = KMNativeMoudle;
+			productReference = 04253D511F8B5D0100F4DEC0 /* libKMNativeMoudle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04253D491F8B5D0100F4DEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04253D501F8B5D0100F4DEC0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04253D4C1F8B5D0100F4DEC0 /* Build configuration list for PBXProject "KMNativeMoudle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04253D481F8B5D0100F4DEC0;
+			productRefGroup = 04253D521F8B5D0100F4DEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04253D501F8B5D0100F4DEC0 /* KMNativeMoudle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04253D4D1F8B5D0100F4DEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0445D0891F8B63810017E1DA /* VerticalScrollManager.m in Sources */,
+				0445D0851F8B63810017E1DA /* VerticalScrollView.m in Sources */,
+				0445D0871F8B63810017E1DA /* SubScrollView.m in Sources */,
+				04253D561F8B5D0100F4DEC0 /* KMNativeMoudle.m in Sources */,
+				0445D0881F8B63810017E1DA /* SubScrollManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04253D581F8B5D0100F4DEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04253D591F8B5D0100F4DEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04253D5B1F8B5D0100F4DEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04253D5C1F8B5D0100F4DEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04253D4C1F8B5D0100F4DEC0 /* Build configuration list for PBXProject "KMNativeMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04253D581F8B5D0100F4DEC0 /* Debug */,
+				04253D591F8B5D0100F4DEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04253D5A1F8B5D0100F4DEC0 /* Build configuration list for PBXNativeTarget "KMNativeMoudle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04253D5B1F8B5D0100F4DEC0 /* Debug */,
+				04253D5C1F8B5D0100F4DEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04253D491F8B5D0100F4DEC0 /* Project object */;
+}

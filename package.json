@@ -1,0 +1,12 @@
+{
+  "name": "react-native-KMNativeMoudle",
+  "version": "1.0.0",
+  "description": "KMNativeMoudle",
+  "keywords": [
+    "react-native",
+    "km",
+    "react-native-KMNativeMoudle"
+  ],
+  "platfrom":"iOS",
+  "author": "WXB",
+}
