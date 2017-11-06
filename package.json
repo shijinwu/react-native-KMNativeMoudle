@@ -1,16 +1,16 @@
 {
-  "name": "react-native-kmnativemoudle",
-  "version": "1.0.0",
-  "description": "KMNativeMoudle",
-  "keywords": [
+	"name": "react-native-kmnativemoudle",
+	"version": "1.0.1",
+	"description": "KMNativeMoudle",
+	"keywords": [
     "react-native",
     "km",
     "react-native-KMNativeMoudle"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shijinwu/react-native-KMNativeMoudle.git"
-  },
-  "platfrom":"iOS",
-  "author": "WXB"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shijinwu/react-native-KMNativeMoudle.git"
+	},
+	"platfrom": "iOS",
+	"author": "WXB"
 }

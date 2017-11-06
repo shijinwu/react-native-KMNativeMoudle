@@ -7,6 +7,7 @@
 //
 #import <React/RCTEventEmitter.h>
 #import <React/RCTViewManager.h>
+#import <React/RCTConvert.h>
 @interface SubScrollManager : RCTViewManager
 
 @end

@@ -26,6 +26,13 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_VIEW_PROPERTY(up, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(onWillEndDragging, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onSubScroll, RCTBubblingEventBlock)
+RCT_CUSTOM_VIEW_PROPERTY(contentSize, CGSize,SubScrollView)
+{
+    if(json){
+        NSDictionary *dic =[RCTConvert NSDictionary:json];
+        [view setContentSize:CGSizeMake([dic[@"w"] floatValue], [dic[@"h"] floatValue])];
+    }
+}
 - (dispatch_queue_t)methodQueue
 {
   return dispatch_get_main_queue();
@@ -38,9 +45,7 @@ RCT_EXPORT_VIEW_PROPERTY(onSubScroll, RCTBubblingEventBlock)
     ofSetY = 80;
   self.sv=[[SubScrollView alloc] init];
   self.sv.delegate = self;
-  self.sv.contentSize = CGSizeMake(width, height*2);
-  self.contentSizeHeight = height*2;
-  self.contentSizeWidth = width;
+  //self.sv.contentSize = CGSizeMake(width, 1166);
   return self.sv;
 }
 
@@ -56,10 +61,9 @@ RCT_EXPORT_VIEW_PROPERTY(onSubScroll, RCTBubblingEventBlock)
   }
   float y = scrollView.contentOffset.y;
   
-  NSLog(@"y = %f height = %f",y,self.contentSizeHeight);
   
   if(scrollView.up){
-    if(y > (self.contentSizeHeight -height + ofSetY)){
+    if(y > (scrollView.contentSize.height -height + ofSetY)){
       scrollView.onWillEndDragging(@{@"height":@(height)});
     }
   }
